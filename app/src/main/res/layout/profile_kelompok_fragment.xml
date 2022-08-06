@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="501dp"
+        android:layout_height="737dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/ProfileAnggota1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1000"
+        app:layout_constraintHorizontal_bias="0.050"
+        app:srcCompat="@drawable/anggota1" />
+
+    <EditText
+        android:editable="false"
+        android:id="@+id/NamaAnggota1"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_bg"
+        android:textColor="@color/white"
+        android:text="Ridwan R"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.100"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileAnggota1" />
+
+    <EditText
+        android:id="@+id/NimAnggota1"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/text_bg"
+        android:editable="false"
+        android:text="10119263"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.100"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NamaAnggota1"
+        app:layout_constraintVertical_bias="0" />
+
+    <ImageView
+
+        android:id="@+id/ProfileAnggota2"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100"
+        app:layout_constraintHorizontal_bias="0.950"
+        app:srcCompat="@drawable/anggota2" />
+
+    <EditText
+        android:editable="false"
+        android:id="@+id/NamaAnggota2"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_bg"
+        android:textColor="@color/white"
+        android:text="Ikhlasul F"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileAnggota2" />
+
+    <EditText
+        android:editable="false"
+        android:id="@+id/NimAnggota2"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_bg"
+        android:textColor="@color/white"
+        android:text="10119254"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NamaAnggota2" />
+
+    <ImageView
+        android:id="@+id/ProfileAnggota4"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        app:layout_constraintHorizontal_bias="0.950"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NimAnggota2"
+        app:srcCompat="@drawable/anggota4" />
+
+    <EditText
+        android:editable="false"
+        android:id="@+id/NamaAnggota4"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_bg"
+        android:textColor="@color/white"
+        android:text="Dafana F"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileAnggota4" />
+
+    <EditText
+        android:editable="false"
+        android:id="@+id/NimAnggota4"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_bg"
+        android:textColor="@color/white"
+        android:text="10119275"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NamaAnggota4" />
+
+    <ImageView
+        android:id="@+id/ProfileAnggota3"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        app:layout_constraintHorizontal_bias="0.050"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NimAnggota1"
+        app:srcCompat="@drawable/anggota3" />
+
+    <EditText
+        android:id="@+id/NamaAnggota3"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_bg"
+        android:textColor="@color/white"
+        android:text="M Farhan"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.100"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileAnggota3" />
+
+    <EditText
+        android:editable="false"
+        android:id="@+id/NimAnggota3"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_bg"
+        android:textColor="@color/white"
+        android:text="10119264"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.100"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NamaAnggota3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

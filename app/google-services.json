@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "996688653887",
+    "firebase_url": "https://wikobara-e8329-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "wikobara-e8329",
+    "storage_bucket": "wikobara-e8329.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996688653887:android:4bdb44c6d6e5074212928a",
+        "android_client_info": {
+          "package_name": "com.example.tugasbesarakb_kelompokinsecta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996688653887-gea5pqb3cofbpjk7hqct2ovou96h3ul4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKQOuW-MjrmlMjcWLZznW4We_UcoEA0Dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996688653887-gea5pqb3cofbpjk7hqct2ovou96h3ul4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996688653887:android:dc31429fcbd9e91412928a",
+        "android_client_info": {
+          "package_name": "com.example.tugasbesarakb_timinsecta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996688653887-gea5pqb3cofbpjk7hqct2ovou96h3ul4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKQOuW-MjrmlMjcWLZznW4We_UcoEA0Dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996688653887-gea5pqb3cofbpjk7hqct2ovou96h3ul4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
